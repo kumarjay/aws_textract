@@ -10,11 +10,11 @@ ENDPOINT = 'https://k6l7a91rfg.execute-api.us-east-1.amazonaws.com/textract-depl
 
 
 def s3_bucket(image_name):
-    s3_client = boto3.client('s3', aws_access_key_id='AKIAQLOZZIL6HJNTXZ42',
-                             aws_secret_access_key='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')
+    s3_client = boto3.client('s3', aws_access_key_id='',
+                             aws_secret_access_key='')
     print('client name is.....', s3_client)
-    s3_resource = boto3.resource('s3', aws_access_key_id='AKIAQLOZZIL6HJNTXZ42',
-                                 aws_secret_access_key='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')
+    s3_resource = boto3.resource('s3', aws_access_key_id='',
+                                 aws_secret_access_key='')
     print('client name is.....', s3_resource)
     # my_bucket = s3_resource.Bucket('ml-flow01')
     # print('bucket name is....', bucket)
