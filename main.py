@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-ENDPOINT = 'https://k6l7a91rfg.execute-api.us-east-1.amazonaws.com/textract-deploy'
+ENDPOINT = 'https://xmv69ith93.execute-api.us-east-1.amazonaws.com/fast-stage'
 
 
 
